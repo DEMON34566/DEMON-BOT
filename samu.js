@@ -1,10 +1,6 @@
-//============ NyanBot ============\\
-// + Favor de mantener este codigo
-//   tal y como esta.
-// + Si modificaras, manten los
-//   creditos:
-//   _MankBarBar & Samu & LolHuman_
-//============ Samu330 ============\\
+//============ DEMON-BOT🔥🛐 ============\\
+
+//============DEMON-BOT🔥🛐  ============\\
 const { 
   WAConnection,
   MessageType,
@@ -46,7 +42,7 @@ const FormData = require('form-data')
 const samuGg = require('google-it');
 const samuGgImg = require('g-i-s');
 const hx = require('hxz-api');
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐 | Amber🔥
 const { validmove, setGame } = require("./lib/tictactoe");
 const simple = require('./lib/simple.js');
 const {y2mateA, y2mateV} = require('./lib/y2mate.js')
@@ -92,7 +88,7 @@ const owner = config.owner
 const mods = config.mods
 const fake = 'Sm330'
 var public = config.public
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 conn.connect()
 const samu330 = conn.samu330
 ////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
@@ -167,7 +163,7 @@ message: {
 await sleep(4000)
 await samu330.blockUser(callerId, "add")
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 samu330.on('CB:action,,battery', json => {
 global.batteryLevelStr = json[2][0][1].value
 global.batterylevel = parseInt(batteryLevelStr)
@@ -176,7 +172,7 @@ if (json[2][0][1].live == 'true') charging = true
 if (json[2][0][1].live == 'false') charging = false
 console.log(chalk.greenBright("├"), chalk.keyword("magenta")("[ 🔋Nivel de carga de la bateria ]"), chalk.greenBright(batterylevel+'%'), chalk.keyword("cyan")("Esta cargando?"), chalk.keyword("yellow")(charging))	
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 samu330.on('blocklist-update', async (chat) => {
 for (i of chat.added){
 target = i.replace('@c.us', '@s.whatsapp.net')
@@ -189,7 +185,7 @@ blocked.splice(blocked.indexOf(target), 1)
 console.log(chalk.greenBright("├"), chalk.keyword("green")("[ NUEVO USUARIO DESBLOQUEADO ]"), chalk.keyword("cyan")(target))
 }
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 samu330.on('group-update', async(chat) => {
 var donde = chat.jid
 var group = await samu330.groupMetadata(donde)
@@ -200,7 +196,7 @@ samu330.sendMessage(group.id, mensajeDesc, MessageType.text)
 console.log(chalk.greenBright("├"), chalk.keyword("yellow")("[ DESCRIPCION CAMBIADA ]"), chalk.keyword("cyan")('grupo'), chalk.keyword("green")(`${group.subject}`))
 }
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 samu330.on('group-participants-update', async (anu) => {
 if (!welkom.includes(anu.jid)) return
 try {
@@ -280,7 +276,7 @@ ppimg = await samu330.getProfilePicture(`${num.split('@')[0]}@c.us`)
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 thu = await samu330.getStatus(anu.participants[0], MessageType.text)
-teks = `*✅NUEVO ADMIN✅*\n*🙋🏻‍♂️ Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n🥳 *FEILICIDADES!!*, te as convertido en administrador del grupo ${mdata.subject}`
+teks = `*✅🔥NUEVO ADMIN🔥✅*\n*🦈 Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n🥳 *FEILICIDADES!!*, te as convertido en administrador del grupo ${mdata.subject}`
 let buff = await getBuffer(ppimg)
 samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 } else if (anu.action == 'demote') {
@@ -291,7 +287,7 @@ ppimg = await samu330.getProfilePicture(`${num.split('@')[0]}@c.us`)
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 thu = await samu330.getStatus(anu.participants[0], MessageType.text)
-teks = `*❌UN ADMIN MENOS❌*\n*🙋🏻‍♂️ Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n*😪Nimodos, ya no eres admnistrador del grupo* ${mdata.subject}`
+teks = `*❌UN ADMIN MENOS❌*\n*🦈 Nombre*: @${num.split('@')[0]}\n*📋 INFO*: ${thu.status}\n\n*😪Nimodos, ya no eres admnistrador del grupo* ${mdata.subject}`
 let buff = await getBuffer(ppimg)
 samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 }
@@ -299,7 +295,7 @@ samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextIn
 console.log('Error : %s', color(e, 'red'))
 }
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 samu330.on('chat-update', async(sam) => {
     try {
         if (!sam.hasNewMessage) return
@@ -323,7 +319,7 @@ samu330.on('chat-update', async(sam) => {
        //budy = (type === 'conversation') ? sam.message.conversation : (type === 'extendedTextMessage') ? sam.message.extendedTextMessage.text : (type === 'listResponseMessage') ? sam.message.listResponseMessage.title : ''
 	   var _0x56fb=["\x6C\x69\x73\x74\x52\x65\x73\x70\x6F\x6E\x73\x65\x4D\x65\x73\x73\x61\x67\x65","\x73\x65\x6C\x65\x63\x74\x65\x64\x44\x69\x73\x70\x6C\x61\x79\x54\x65\x78\x74","\x6D\x65\x73\x73\x61\x67\x65","","\x6B\x65\x79\x73","\x73\x74\x69\x63\x6B\x65\x72\x4D\x65\x73\x73\x61\x67\x65","\x62\x61\x73\x65\x36\x34","\x66\x69\x6C\x65\x53\x68\x61\x32\x35\x36"];resbutton= (type== _0x56fb[0])?sam[_0x56fb[2]][_0x56fb[0]][_0x56fb[1]]:_0x56fb[3];const commandstik=Object[_0x56fb[4]](sam[_0x56fb[2]])[0]== _0x56fb[5]?sam[_0x56fb[2]][_0x56fb[5]][_0x56fb[7]].toString(_0x56fb[6]):_0x56fb[3]
 	   selectedButton = (type == 'buttonsResponseMessage') ? sam.message.buttonsResponseMessage.selectedButtonId : ''
-	////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+	////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
         if (prefix != "") {
         if (!body.startsWith(prefix)) {
         cmd = false
@@ -337,7 +333,7 @@ samu330.on('chat-update', async(sam) => {
         comm = body.trim().split(" ").shift().toLowerCase()
         }
 	    
-	////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+	////////////▶ DEMON-BOT🔥🛐  | AMBER🔥
 
 	const uploadImages = (filePath) => {
 	return new Promise(async (resolve, reject) => {
@@ -433,8 +429,8 @@ samu330.on('chat-update', async(sam) => {
    }
 	
 	mess = {
-			wait: '⌛ 𝐄𝐍 𝐏𝐑𝐎𝐂𝐄𝐒𝐎 ⌛',
-			success: '✔️ 𝙎𝙐𝙎𝙎𝙀𝙎 ✔️',
+			wait: '⌛ 🦈𝐄𝐍 𝐏𝐑𝐎𝐂𝐄𝐒𝐎 ⌛🦈',
+			success: '✔️🔥 𝙎𝙐𝙎𝙎𝙀𝙎 🔥✔️',
 			nsfw: `𝗟𝗼 𝘀𝗶𝗲𝗻𝘁𝗼 𝗽𝗲𝗿𝗼 𝗻𝗼 𝗽𝘂𝗲𝗱𝗼 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗲𝘀𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼, 𝗲𝘀𝘁𝗲 𝗴𝗿𝘂𝗽𝗼 𝗻𝗼 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 +𝟭𝟴\n*PARA ACTIVAR LOS COMANDOS +18, USA:* ${prefix}+18 1`, 
 			ferr: 'Intentalo de nuevo mas tarde',
 			error: {
@@ -740,8 +736,8 @@ var _0xd6ca=["\x74\x65\x78\x74","\x30\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x7
 		message: {
 		"productMessage": {
 		"product": {
-		"title": '🗒️𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐧𝐨 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨!',
-		"description": "𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙚",
+		"title": '🗒️𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐧𝐨 𝐫𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝O🦅!',
+		"description": "𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙚🦅",
 		"currencyCode": "SYP",
 		"priceAmount1000": "999999999999999999",
 		"retailerId": "NyanBot",
@@ -774,7 +770,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "imageMessage": { "mimetype": "image/jpeg","caption": `🥀Sαм y Perry`, 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
+message: { "imageMessage": { "mimetype": "image/jpeg","caption": rey anayami`, 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -783,7 +779,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "documentMessage": { "title":"🔥𝒩𝓎𝒶𝓃𝐵𝑜𝓉 | 𝚂𝚊𝚖 𝚢 𝙿𝚎𝚛𝚛𝚢💓", 'jpegThumbnail': fs.readFileSync('./src/fake.jpg')}}
+message: { "documentMessage": { "title":"DEMON-BOT🔥🛐 | AMBER🔥", 'jpegThumbnail': fs.readFileSync('./src/fake.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -792,7 +788,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "locationMessage": { "caption":"🥀𝓝𝔂𝓪𝓷𝓑𝓸💞", 'jpegThumbnail': fs.readFileSync('./src/samyperry.png')}}
+message: { "locationMessage": { "caption":"Amber🦈", 'jpegThumbnail': fs.readFileSync('./src/samyperry.png')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -801,7 +797,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "liveLocationMessage": { "caption":"🍒𝒮𝒶𝓂 𝓎 𝒫𝑒𝓇𝓇𝓎 | 𝙉𝙮𝙖𝙣𝘽𝙤𝙩🔥", 'jpegThumbnail': fs.readFileSync('./src/img.jpg')}}
+message: { "liveLocationMessage": { "caption":"🍒𝒮𝒶𝓂 𝓎 𝒫𝑒𝓇𝓇𝓎 |DEMON-BOT🔥🛐", 'jpegThumbnail': fs.readFileSync('./src/img.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -810,7 +806,7 @@ key:
 { fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ?
 { remoteJid: "status@broadcast" } : {}) },
-message: { "videoMessage": { "caption":"🌺Ｓａｍ ｙ Ｐｅｒｒｙ🌺", 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
+message: { "videoMessage": { "caption":"DEMON 🛐🔥", 'jpegThumbnail': fs.readFileSync('./src/help.jpg')}}
 }
 contextInfo: {
 mentionedJid: [sender]}
@@ -835,8 +831,8 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)
 },
-"title": `🐉𝗦𝗮𝗺𝘂𝟯𝟯𝟬🔥 | 📌𝑵𝒚𝒂𝒏𝑩𝒐𝒕🌹 ${timeFt}`,
-"description": "",
+"title": `🐉amber | 🛐🔥Demon ${timeFt}`,
+"description": "DANY ES REPRO",
 "currencyCode": "SYP",
 "priceAmount1000": "999999999999999999",
 "retailerId": "",
@@ -905,7 +901,7 @@ function _0xd037(_0x1fea26,_0x25290c){const _0x49fad6=_0x33d3();return _0xd037=f
 //Menus
 const mda = `
 ╔════════════════╗
-╠  ◈  𝙈𝙀𝙉𝙐⁪⁡ 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼 ◈  ╣
+╠  ◈  🛐🔥𝙈𝙀𝙉𝙐⁪⁡ 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼🔥🛐 ◈  ╣
 ╠════════════════╝
 ║
 ╠ *●${prefix}clima* + region
@@ -950,7 +946,7 @@ const mda = `
 ║
 ╠ *●${prefix}neko*
 ║
-╟╼╾┤🎧𝘈𝘶𝘥𝘪𝘰𝘴🎧├╼╾
+╟╼╾┤🦅🎧𝘈𝘶𝘥𝘪𝘰𝘴🎧🦅├╼╾
 ║
 ╠ *●${prefix}bass*
 ║ _Etiqueta un audio_
@@ -982,7 +978,7 @@ const mda = `
 ╠ *●${prefix}robot*
 ║ _Etiqueta un audio_
 ║
-╟╼╾┤🎞VIDEOS🎞├╼╾
+╟╼╾┤🔥🎞VIDEOS🎞🔥├╼╾
 ║
 ╠ *●${prefix}reversa*
 ║ _Etiqueta un video_
@@ -1005,7 +1001,7 @@ const mda = `
 ╒╩════════════
 ╰──────────────╮
 ╭──────────────┴╮
-│ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li🌴
+│DEMON-BOT🔥🛐
 ╰───────────────╯`
 
 const stc = `╭⸻⃞✫꯭𝙈꯭𝙀꯭𝙉꯭𝙐꯭✫⃞⸻╮
@@ -1067,9 +1063,9 @@ const stc = `╭⸻⃞✫꯭𝙈꯭𝙀꯭𝙉꯭𝙐꯭✫⃞⸻╮
 │ _Stiker a gif_
 ╰─────────────╮
 ╭─────────────┴╮
-│ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li 
+|DEMON😈🛐🔥
 ╰──────────────╯`
-const Menug = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                            
+const Menug = `➫𖾔DEMON-BOT🔥🛐                                                                           
         🔐Hola *${pushname}*
     
 ${bodyM} ${samu}${prefix}antilink${samu}
@@ -1129,7 +1125,7 @@ ${bodyM} ${prefix}link
 ${bodyM} ${prefix}top5
 ${bodyM} ${prefix}clonar`
 
-const Menud = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li   
+const Menud = `DEMON-BOT🔥🛐
 
 🔐Hola *${pushname}*
 
@@ -1181,7 +1177,7 @@ ${bodyM} ${prefix}blocklist
 ${bodyM} ${prefix}leerimagen
 
 *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-	      🌸 SamịPerry.li 🌸
+	      🛐🔥AMBER🔥🛐
  ********************************`
  const Menu7 = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                            
 
@@ -1231,7 +1227,7 @@ ${bodyM} ${prefix}leerimagen
  ${bodyM} ${prefix}cg *(Etiqueta una imagen)*
  
  *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-          🌸 SamịPerry.li 🌸
+          DEMON-BOT🔥🛐
   ******************************`
   const Menu8 = `*COMANDOS PARA ${botNumber}*
 
@@ -1360,22 +1356,13 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 🔥 ${prefix}crashcatal
 🔥 ${prefix}crashrow
 
-💠Si quieres ser inmune a estos comandos, Samu a creado un WhatsApp que soporta estos bugs, si quieres probar este WhatsApp comunicate con el:
+💠Si quieres ser inmune a estos comandos, DEMON a creado un WhatsApp que soporta estos bugs, si quieres probar este WhatsApp comunicate con el:
 
-*wa.me/+529984907794*
-
-O bien puedes descargar desde el enlace...
-
-Actualizado!!!
-
-https://www.mediafire.com/file/izd44n2z86tbpem/Nyan_V2.apk/file
-
-Si quieres tener este bot, y usar tu los comandos, ve como se instala aqui:
-
-_https://www.youtube.com/watch?v=rOPBe6O-k3M_`
+*wa.me/+50360096719*
 
 
-		   
+
+	   
 		   
 		if (isAutoSt && isMedia && isImage) {
 		if (!itsMe) {
@@ -1452,7 +1439,7 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 		}
 
 	    
-	    ///////////////////////FUNCIONES CREADAS POR SAMU330\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	    ///////////////////////FUNCIONES CREADAS POR DEMON-BOT🔥🛐\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	    
 			if (isGroup && botAdmin && isAntiMedia) {     
 			if (!itsMe) {
@@ -1559,8 +1546,8 @@ sendButMessage(from, `*Si no ves la lista de comandos, o no puedes hacer click e
 
 let newmenu = samu330.prepareMessageFromContent(from, {
 "listMessage":  {
-"title": "*✍🏻MENU | 🌬NyanBot | SAMU330🪀*",
-"description": `\n➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+"title": "*✍🏻MENU | DEMON-BOT🔥🛐  | AMBER🔥*",
+"description": `\n DEMON AMBER Oℱịcιɑl.li
 🔐Hola *${pushname}* ${timeFt}
 _Tipo de usuario:_ ${tipoDeUsr}
 ┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -1578,18 +1565,7 @@ ${samu}◦ 🚄Velocidad :${samu} *${process.uptime()}*
 ${samu}◦ 📲Sistema operativo :${samu} *${samu330.user.phone.device_manufacturer}*
 ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
 
-༶•┈┈⛧┈♛ ♛┈⛧┈┈•༶
-
-*🪀Grupo de Soporte y ayuda:*
-https://chat.whatsapp.com/BGTQNDzESmEJr2cCJlccWV
-
-En el grupo podras aprender a:
-- Crear Bots.
-- Instalar Bots.
-- Editar Bots.
-- Y mucho mas.
-
-🗡NO SE PERMITEN ENLACES!!
+༶•┈┈⛧┈
 
 ${opcion}`,
 							"buttonText": "Selecciona tu menu",
@@ -1662,7 +1638,7 @@ ${opcion}`,
 			if (sam.message.buttonsResponseMessage){
 				test = sam.message.buttonsResponseMessage.selectedButtonId
 				if (test.includes(`mnan`)){
-				sendButLocation(from, `\n➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+				sendButLocation(from, `\nDEMON-BOT🔥🛐Oℱịcιɑl
 🔐Hola *${pushname}* ${timeFt}
 _Tipo de usuario:_ ${tipoDeUsr}
 ┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -1725,7 +1701,7 @@ ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
             if (sam.message.listResponseMessage){
 				test = sam.message.listResponseMessage.singleSelectReply.selectedRowId
 				if (test.includes(`sticker`)){
-                    if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+                    if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `🦅Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *DEMON*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
                     samu330.sendMessage(from, `${stc}`, MessageType.text, {quoted:
                     { key: {
                     fromMe: false,
@@ -1816,7 +1792,7 @@ ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
                                     "imageMessage": { 
                                     "mimetype": 
                                     "image/jpeg", 
-                                    "caption": "➫'*👑Samu330 Crashing Groups!!🔥*'\n'😈Samu330 Domina🥀'" ,
+                                    "caption": "➫'*👑DEMON🛐🔥 Crashing Groups!!🔥*'\n'AMBER 🥀'" ,
                                     "jpegThumbnail": fs.readFileSync(`./src/ara.png`)}}}})
 			}
 			}
@@ -1845,23 +1821,23 @@ var _0x4dab=["\x6C\x69\x73\x74\x52\x65\x73\x70\x6F\x6E\x73\x65\x4D\x65\x73\x73\x
 					"rowId": `${prefix}belle`
 					},
 					{
-					"title": "🍑VIDEO UNICO Y EXCLUSIVO PARA LOS USUARIOS DE NYANBOT👑✍🏻",
+					"title": "🔥🔥🔥👑✍🏻",
 					"rowId": `VIP`
 					},	
 					{
-					"title": `Porno Real🔥`,
+					"title": `🔥`,
 					"rowId": `${prefix}porno`
 					},
 					{
-					"title": "Porno de Lesbianas😊",
+					"title": "😊",
 					"rowId": `${prefix}lesbian`
 					},
 					{
-						"title": `Bonitas Tetas🍇`,
+						"title": `Bonitas 🍇`,
 						"rowId": `${prefix}tetas`
 						},
 						{
-						"title": "Culos Hermosos🍑",
+						"title": MMM
 						"rowId": `${prefix}ass`
 						},
 						{
@@ -1895,7 +1871,7 @@ var _0x4dab=["\x6C\x69\x73\x74\x52\x65\x73\x70\x6F\x6E\x73\x65\x4D\x65\x73\x73\x
             if (sam.message.listResponseMessage){
 				test = sam.message.listResponseMessage.singleSelectReply.selectedRowId
 				if (test.includes(`juegos`)){
-                    reply(`🎮 *Juegos NyanBot* 🍒
+                    reply(`🎮 *Juegos DEMON🛐🔥* 🍒
 - ${prefix}ttt
 _TicTacToe_
 
@@ -2021,7 +1997,7 @@ _Ps DADOS!!_`)
 					if (!isNsfw) return reply(mess.nsfw)
 					reply('*Buscando una buena imagen...*')
 					waifu = await getJson(`https://api.waifu.pics/nsfw/waifu`)
-					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *Samu330 | NyanBot* 💠', sendEphemeral: true})
+					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *DEMON-BOT🔥🛐  | AMBER🔥'*, sendEphemeral: true})
 					addFilter(from)
 			}
 			}
@@ -2032,7 +2008,7 @@ _Ps DADOS!!_`)
 					if (!isNsfw) return reply(mess.nsfw)
 					reply('*Buscando una buena imagen...*')
 					waifu = await getJson(`https://api.waifu.pics/nsfw/neko`)
-					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *Samu330 | NyanBot* 💠', sendEphemeral: true})
+					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *DEMON-BOT🔥🛐  | AMBER🔥* 💠', sendEphemeral: true})
 					addFilter(from)
 			}
 			}
@@ -2043,7 +2019,7 @@ _Ps DADOS!!_`)
 					if (!isNsfw) return reply(mess.nsfw)
 					reply('*Buscando una buena imagen...*')
 					waifu = await getJson(`https://api.waifu.pics/nsfw/trap`)
-					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *Samu330 | NyanBot* 💠', sendEphemeral: true})
+					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: 'DEMON-BOT🔥🛐  | AMBER🔥', sendEphemeral: true})
 					addFilter(from)
 			}
 			}
@@ -2054,7 +2030,7 @@ _Ps DADOS!!_`)
 					if (!isNsfw) return reply(mess.nsfw)
 					reply('*Buscando una buena imagen...*')
 					waifu = await getJson(`https://api.waifu.pics/nsfw/blowjob`)
-					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *Samu330 | NyanBot* 💠', sendEphemeral: true})
+					sendFileFromUrl(waifu.url, image, {quoted: fimg, caption: '💎 *DEMON-BOT🔥🛐 | AMBER🔥* 💠', sendEphemeral: true})
 					addFilter(from)
 			}
 			}
@@ -2079,7 +2055,7 @@ gracias =
 				            participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "5219984907794@s.whatsapp.net" } : {})
 				            },
 					                message: {
-							            "documentMessage": { "title": `🍉Samu330🍒`, 'jpegThumbnail': fs.readFileSync('./media/SmWW.png')}}
+							            "documentMessage": { "title": `DEMON🍒`, 'jpegThumbnail': fs.readFileSync('./media/SmWW.png')}}
 								                }, contextInfo: {"externalAdReply": { "title": "🎩NyanBot | সামু৩৩০🏹", "body": "[ ★ ] 山姆 330", "sourceUrl": `https://youtube.com/channel/UCHD4T8Pfcv5PFVzsAbfAPZA`, "thumbnail": fs.readFileSync('./media/reply.png')}, mentionedJid: [ds6, aiden, pike, pay]}})
                                                                                                                                   }                                                                                                         }
 
@@ -2106,21 +2082,19 @@ break
 
 case 'menuofc':
 
-redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/samu330wabot', '*😊Seamos amigos en facebook!!* https://www.facebook.com/samu330wabot']
-opcion = redes[Math.floor(Math.random() * redes.length)]
 
 var num = sam.participant
 foto = fs.readFileSync('./src/help.jpg')
 fakee = fs.readFileSync('./src/fake.jpg')
 assistant = fs.readFileSync('./src/assistant.jpg')
-const forder = { key : {fromMe: false,participant : "0@s.whatsapp.net", ...(from ? { remoteJid: "5214447000377-1624232428@g.us" } : {})},message: {orderMessage: {itemCount : 999999999,status: 1,surface : 1,message: `🥀𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝑁𝑦𝑎𝑛𝐵𝑜𝑡🍒`,orderTitle: 'Samu330',sellerJid: `𝗡𝘆𝗮𝗻𝗕𝗼𝘁🌱`,thumbnail: fs.readFileSync('./src/fake.jpg')}}}
+const forder = { key : {fromMe: false,participant : "0@s.whatsapp.net", ...(from ? { remoteJid: "50360096719us" } : {})},message: {orderMessage: {itemCount : 999999999,status: 1,surface : 1,message: `DEMON-BOT🔥🛐  | AMBER🔥: 'DM',sellerJid: `AMB`,thumbnail: fs.readFileSync('./src/fake.jpg')}}}
 samu330.updatePresence(from, Presence.recording)
 uptime = process.uptime()
 		
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 try {		
 Menu = `
-➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+DEMON-BOT🔥🛐
 🔐Hola *${pushname}* ${timeFt}
 
 _Tipo de usuario:_ ${tipoDeUsr}
@@ -2209,11 +2183,11 @@ ${bodyM} ${prefix}audios *(Audios)*
      -----------------------------------------------
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                
 ¦:
-¦:         . : 🐬𝐍𝐲𝐚𝐧𝐁𝐨𝐭🐬 : .
-¦:     🔥❣️𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆❣️🔥
+¦:         . : DEMON-BOT🔥🛐: .
+¦:     🔥❣️DEMON❣️🔥
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-		     🌸 SamịPerry.li 🌸
+		     🌸 DEMON 🌸
 ********************************`
 addFilter(from)
 addLevelingLevel(sender, 5)
@@ -2802,7 +2776,7 @@ case 'crashall':
 if (!isOwner) return reply(mess.only.ownerB)
 if (args.length < 1) return reply('y el numero de veses a enviar?')
 try {
-var hets = `🔥 *NyanBot* 💣`
+var hets = `🔥 *DEMON-BOT 🔥* 💣`
 var grousp = await samu330.groupMetadata(from)
 var membere = grousp['participants']
 var mems = []
@@ -2939,7 +2913,7 @@ ggsm += `
 `
 }
 var nyangg = ggsm.trim()
-reply(`*🔍Busqueda realizada por* 🐉Samu330🐉\n\n${nyangg}`)
+reply(`*🔍Busqueda realizada por* 🐉 DEMON-LEFT🐉\n\n${nyangg}`)
 addFilter(from)
 break
 			
@@ -3016,7 +2990,7 @@ break
 		
 case 'contar':
 addFilter(from)
-if (args.length == 0) return reply('0 caracteres!😀 NO HAY TEXTO PARA CONTAR!')
+if (args.length == 0) return reply('0 caracteres!🦅 NO HAY TEXTO PARA CONTAR!')
 const count = body.slice(8).length
 if (count === 1) {
 reply(`El texto solo contine *${count}* caracter.`)
@@ -3095,7 +3069,7 @@ for (let mem of groupMembers) {
 members_id.push(mem.jid)
 }
 wa.demoteAdmin(from, members_id)
-reply('😙')
+reply('🔥🛐')
 await sleep(300)
 wa.promoteAdmin(from, members_id)
 reply(':o')
@@ -3115,7 +3089,7 @@ await sleep(10000)
 reply('😱')
 break
 	
-//======== _-By Samu330-_ ========\\
+//======== _-By DEMON-_ ========\\
 case 'inspeccionar':
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return reply('*Este no es un link de WhatsApp...*')
 if (!q) return reply('*🙄Y el link??...*')
@@ -3126,7 +3100,7 @@ if (!net) return reply('Porfavor aegurate que el link sea de un grupo de whatsap
 var { id, owner, subject, subjectOwner, desc, descId, participants, size, descOwner, descTime, creation} = await samu330.query({ 
 json: ["query", "invite", net],
 expect200:true })
-let insSm = `_*Inspección By Samu330💎*_
+let insSm = `_*Inspección By DEMON💎*_
 
 🪀 *Id* : _${id}_
 
@@ -3177,7 +3151,7 @@ picM = samu330.getProfilePicture(mentioneds)
 reply(mess.wait)
 const bas64sp = `data:image/jpeg;base64,${picM.toString('base64')}`
 var imageBuffersp = new Buffer.from(mantapsp, 'base64');
-var mantapsp = await convertSticker(bas64sp, `✍🏻Sp By Samu330🍒\n🔥Sam y Perry🍂`, `${pushname}\n🌬NyanBot💎`)
+var mantapsp = await convertSticker(bas64sp, `✍🏻Sp By DEMON\n🔥 DEMON-BOT🍂`, `${pushname}\n🌬 DEMON-BOT`)
 samu330.sendMessage(from, imageBuffersp, sticker, {quoted: sam})
 addFilter(from)
 break
@@ -3418,7 +3392,7 @@ https://www.youtube.com/watch?v=rOPBe6O-k3M
 
 🌹ڰۣڿڰۣڿஇღԑ̮̑ঙღڰۣڿڰۣڿஇ🌹
 
-*🌬Samu330 | Sam y Perry🔥*`)
+*DEMON-BOT🔥🛐  | AMBER🔥*`)
 break
 
 case 'git':
@@ -3705,7 +3679,7 @@ case 'doxing':
 if (!isRegister) return reply(mess.only.usrReg)
 if (!isGroup) return reply(mess.only.group)
 f = await getJson(`https://docs-jojo.herokuapp.com/api/fake_identity`)
-reply(`*Doxeo de ${mentionUser} echo por Samu330✅*
+reply(`*Doxeo de ${mentionUser} echo por DEMON*
 
 *Nombre:* _${f.name}_
 *Genero:* _${f.gender}_
@@ -3739,12 +3713,12 @@ reply(`*Doxeo de ${mentionUser} echo por Samu330✅*
 
 =====================
 
-*FDx Bt 🔥𝘚𝘢𝘮𝘶𝟥𝟥𝟢🔥*
+*FDx Bt 🔥𝘚DEMON-BOT🔥🛐🔥*
 `)
 break
 		
 		//»»————-　★　————-««\\
-//˚ ༘✶ ⋆｡˚ ⁀➷  🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥
+//˚ ༘✶ ⋆｡˚ ⁀➷  🔥 𝘓OGOS DEMON 🔥
 		
 case 'neon':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
@@ -3991,7 +3965,7 @@ reply('*Espere un momento...*')
 resyt = await y2mateA(teks).catch(e => {
 reply('_[ ! ] Error del servidor_')
 })
-result = `「  𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆🍒  」
+result = `「  DEMON-LEFT  」
 *°Titulo :* ${resyt[0].judul}
 *°Tamaño :* ${resyt[0].size}
 *°Calidad :* ${resyt[0].quality}kbps
@@ -4014,7 +3988,7 @@ reply(mess.wait)
 resyv = await y2mateV(teks).catch(e => {
 reply('_[ ! ] Error del servidor_')
 })
-result = `「  𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆🍒  」
+result = `「  DEMON-LEFT 🦅🔥  」
 *°Titulo :* ${resyv[0].judul}
 *°Tamaño :* ${resyv[0].size}
 *°Calidad :* ${resyv[0].quality}p
@@ -5269,7 +5243,7 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": fs.readFileSync(`./src/simi.jpg`)
 },
-"title": `➫𝐒𝐢𝐦𝐬𝐢𝐦𝐢 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲🔥❣️`,
+"title": `➫𝐒𝐢𝐦𝐬𝐢𝐦𝐢 | Demon pro`,
 "description": `${texto}`,
 "currencyCode": '',
 "priceAmount1000": "999999999999999999999",
